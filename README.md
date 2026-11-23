@@ -1,12 +1,11 @@
-# Portfolio site
+# berkayozdemr.github.io/me
 
-Plain HTML + CSS, no build step. Open `index.html` in a browser to preview.
+Personal CV and portfolio site of Berkay Özdemir. Live at https://berkayozdemr.github.io/me/
 
-- Content comes from the CV (`assets/cv.pdf`). Edit `index.html` directly to change text.
-- Put your CV at `assets/cv.pdf` (the "Download CV" buttons point there).
-- Project screenshots: drop images in `assets/` and replace the numbered `.thumb` div with `<div class="thumb"><img src="assets/x.png" alt="..."></div>`.
-- Printing the page (Ctrl/Cmd+P) gives a clean one-page CV.
+Plain HTML and CSS, no build step. GitHub Pages serves `main` from the repo root, so every push to `main` goes live in about a minute.
 
-## Deploy to GitHub Pages
-This repo is served by GitHub Pages from `main` / root.
-Live at https://berkayozdemr.github.io/me/
+## Layout
+- `index.html`: all content. It follows the CV's structure and wording: header, selected work, professional experience, university projects, education, skills, languages, contact.
+- `assets/style.css`: styles. Light and dark themes, phone layout, and a print stylesheet.
+- `assets/cv.pdf`: the downloadable CV. To update it, replace this file (keep the name).
+- `assets/fonts/`: Carlito, an open-source font metric-compatible with Calibri (the CV's font), licensed under the SIL Open Font License (`OFL.txt`). Visitors who have Calibri installed use it directly and download nothing.

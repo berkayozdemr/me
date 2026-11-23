@@ -3,15 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Berkay Özdemir · Full-Stack Software Engineer</title>
-  <meta name="description" content="Berkay Özdemir is a full-stack software engineer (.NET, TypeScript, AI automation) with 7+ years building software, including reporting, AI assistants and IoT platforms. Based in Hof, Germany.">
-  <meta property="og:title" content="Berkay Özdemir · Full-Stack Software Engineer">
-  <meta property="og:description" content=".NET and TypeScript full-stack engineer building reliable systems and AI automation. CV, projects and contact.">
-  <meta property="og:type" content="website">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563eb'/><text x='50' y='66' font-size='46' text-anchor='middle' fill='white' font-family='system-ui' font-weight='700'>BÖ</text></svg>">
+  <title>Berkay Özdemir · Founding Software Engineer</title>
+  <meta name="description" content="Berkay Özdemir, Founding Software Engineer with 7+ years of AI-enabled software engineering experience: .NET full-stack, distributed systems, observability and AI automation. Based in Hof, Germany.">
+  <link rel="canonical" href="https://berkayozdemr.github.io/me/">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://berkayozdemr.github.io/me/">
+  <meta property="og:title" content="Berkay Özdemir · Founding Software Engineer">
+  <meta property="og:description" content="7+ years of AI-enabled software engineering: .NET full-stack, distributed systems, observability and AI automation. CV, projects and contact.">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15171c" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230563c1'/><text x='50' y='67' font-size='46' text-anchor='middle' fill='white' font-family='Calibri,Carlito,Arial,sans-serif' font-weight='700'>BÖ</text></svg>">
   <link rel="stylesheet" href="assets/style.css">
+  <script>try { var t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"Berkay Özdemir","jobTitle":"Full-Stack Software Engineer",
+  {"@context":"https://schema.org","@type":"Person","name":"Berkay Özdemir","jobTitle":"Founding Software Engineer",
+   "url":"https://berkayozdemr.github.io/me/",
    "address":{"@type":"PostalAddress","addressLocality":"Hof","addressCountry":"DE"},
    "sameAs":["https://www.linkedin.com/in/berkayyozdemirr/","https://github.com/berkayozdemr","https://leetcode.com/u/berkayoz/"]}
   </script>
@@ -19,183 +25,239 @@
 <body>
   <a class="skip" href="#main">Skip to content</a>
 
-  <header class="nav">
-    <div class="wrap nav-inner">
-      <a class="brand" href="#top">Berkay Özdemir</a>
-      <nav aria-label="Sections">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" lang="tr">Berkay Özdemir</a>
+      <nav class="topnav" aria-label="Sections">
+        <a href="#work">Work</a>
         <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
       </nav>
-      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">◐</button>
+      <a class="btn btn-sm primary" href="assets/cv.pdf" download="Berkay_Ozdemir_CV.pdf">CV<span class="hide-sm">&nbsp;(PDF)</span></a>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="8.25" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 3.75a8.25 8.25 0 0 1 0 16.5z" fill="currentColor"/></svg>
+      </button>
     </div>
   </header>
 
-  <main id="main">
-    <section class="hero wrap" id="top">
-      <p class="eyebrow"><span class="dot"></span> Open to new opportunities · Hof, Germany</p>
-      <h1>Berkay Özdemir</h1>
-      <p class="role">Full-Stack Software Engineer · .NET, TypeScript &amp; AI automation</p>
-      <p class="lede">I turn slow, fragile systems into fast, reliable ones. At one of Turkey's largest insurers I rebuilt a reporting platform from hours to minutes, and I now ship secure IoT and AI-driven products end to end.</p>
+  <main id="main" class="paper">
+    <!-- Header block: mirrors the first two lines of the CV -->
+    <section class="hero" id="top">
+      <p class="status"><span class="dot" aria-hidden="true"></span>Open to new opportunities · Hof, Germany</p>
+      <h1 lang="tr">Berkay Özdemir</h1>
+      <p class="headline">Founding Software Engineer</p>
+      <p class="links-line">
+        <a href="mailto:berkayozdemir764@gmail.com">berkayozdemir764@gmail.com</a><span class="sep" aria-hidden="true">|</span>
+        <a href="https://www.linkedin.com/in/berkayyozdemirr/" rel="noopener">LinkedIn</a><span class="sep" aria-hidden="true">|</span>
+        <a href="https://github.com/berkayozdemr" rel="noopener">GitHub</a><span class="sep" aria-hidden="true">|</span>
+        <a href="https://leetcode.com/u/berkayoz/" rel="noopener">LeetCode</a>
+      </p>
+      <p class="tagline">7+ years of AI-Enabled Software Engineer experience<span class="sep" aria-hidden="true">|</span>.NET Fullstack, Distributed Systems, Observability, AI Automation<span class="sep" aria-hidden="true">|</span>Insurance</p>
+      <p class="lede">I turn slow, fragile systems into fast, reliable ones. At Sompo, one of Turkey's largest insurers, I rebuilt sales-critical reporting from hours to minutes. Today I'm a founding software engineer on two products: a secure hotel-operations platform and an AI logistics platform.</p>
       <div class="cta">
-        <a class="btn primary" href="assets/cv.pdf" download="Berkay_Ozdemir_CV.pdf">Download CV</a>
+        <a class="btn primary" href="assets/cv.pdf" download="Berkay_Ozdemir_CV.pdf">
+          <svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19.5h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download CV (PDF)
+        </a>
         <a class="btn" href="mailto:berkayozdemir764@gmail.com">Email me</a>
-        <a class="icon-link" href="https://www.linkedin.com/in/berkayyozdemirr/" rel="noopener">LinkedIn ↗</a>
-        <a class="icon-link" href="https://github.com/berkayozdemr" rel="noopener">GitHub ↗</a>
-        <a class="icon-link" href="https://leetcode.com/u/berkayoz/" rel="noopener">LeetCode ↗</a>
       </div>
-      <ul class="stats" aria-label="Highlights">
-        <li><strong>7+ yrs</strong><span>building software</span></li>
-        <li><strong>98%</strong><span>faster fleet reporting</span></li>
-        <li><strong>1,000+</strong><span>users on an AI assistant I built</span></li>
+      <ul class="glance" aria-label="Highlights">
+        <li><strong>7+ years</strong><span>AI-enabled software engineering</span></li>
+        <li><strong>98%</strong><span>faster fleet reporting at Sompo</span></li>
+        <li><strong>1,000+</strong><span>users on an internal AI assistant</span></li>
         <li><strong>2,000+</strong><span>automated tests on HotelOps</span></li>
       </ul>
     </section>
 
-    <section class="wrap section" id="about">
-      <h2>About</h2>
-      <p class="measure">I'm a full-stack engineer with a background in insurance software, where I worked on core platforms used by millions of policyholders. I like owning problems end to end: requirements, architecture, implementation, testing and production. Lately my focus is AI automation (RAG, LLM integration) and distributed systems with strong observability. I'm doing an MSc in Computer Science at Hochschule Hof and work in English, German (B2) and Turkish.</p>
-    </section>
-
-    <section class="wrap section" id="experience">
-      <h2>Experience</h2>
-      <ol class="timeline">
-        <li>
-          <div class="when">Oct 2026 – Present</div>
-          <div>
-            <h3>Full-Stack Developer · <a class="org" href="https://germancyber-systems.de" rel="noopener">German Cyber-Systems</a></h3>
-            <p class="where">Germany · Cybersecurity &amp; IoT</p>
-            <ul class="bullets">
-              <li>Sole developer of <strong>HotelOps</strong> for a Riyadh hotel pilot, from requirements and architecture to self-hosted production.</li>
-              <li>Integrated Oracle OPERA PMS with building and security signals behind ports-and-adapters interfaces; built a rules engine for incidents and housekeeping tasks.</li>
-              <li>RBAC for four roles, emergency access, PDPL-focused data minimisation; resolved 39 security findings; EN/TR/AR UI with RTL.</li>
-              <li>60×-speed simulations of 196 rooms and ~1,200 devices, 2,000+ automated tests, CI/CD with end-to-end checks.</li>
-            </ul>
-            <ul class="tags"><li>TypeScript</li><li>NestJS</li><li>React</li><li>PostgreSQL</li><li>Prisma</li><li>Docker</li><li>Playwright</li></ul>
-          </div>
-        </li>
-        <li>
-          <div class="when">Jul 2023 – Sep 2026</div>
-          <div>
-            <h3>Software Engineer · <span class="org">Sompo</span></h3>
-            <p class="where">Turkey · One of the country's largest insurers</p>
-            <ul class="bullets">
-              <li>Led the redesign of sales-critical fleet reporting: <strong>hours to minutes (98% faster)</strong>, 3–4 weekly crashes eliminated, ~99% fewer emergency interventions.</li>
-              <li>Enabled 80% sales-team growth without extra engineering support and contributed to 50% fleet-insurance revenue growth.</li>
-              <li>Built the backend of a privacy-aware internal AI assistant for 1,000+ users (~30% faster onboarding) and a RAG assistant for support investigations.</li>
-              <li>C++ Notepad++ plugin for a proprietary language (~50% fewer production incidents); Selenium health checks (~90% less manual testing).</li>
-            </ul>
-            <ul class="tags"><li>C#</li><li>.NET Core</li><li>SQL Server</li><li>Redis</li><li>React</li><li>Azure DevOps</li><li>Dynatrace</li><li>Grafana</li></ul>
-          </div>
-        </li>
-        <li>
-          <div class="when">Jun 2022 – Jul 2023</div>
-          <div>
-            <h3>Software Engineer · <span class="org">SFS</span></h3>
-            <p class="where">Turkey · Insurance platforms used by 15+ insurers</p>
-            <ul class="bullets">
-              <li>Backend engineer on core insurance modules for insurers including Sompo and Türk Nippon.</li>
-              <li>Led the full platform integration for ACN Türk, from backend setup to production readiness.</li>
-              <li>Helped build a no-code policy document designer, cutting operational effort by ~70%.</li>
-            </ul>
-            <ul class="tags"><li>C#</li><li>.NET</li><li>SQL</li><li>ASP.NET MVC</li><li>SOAP</li></ul>
-          </div>
-        </li>
-        <li>
-          <div class="when">Jan 2020 – Jun 2022</div>
-          <div>
-            <h3>Indie Game Developer · <span class="org">Independent</span></h3>
-            <ul class="bullets">
-              <li>Built game prototypes in Unity (C#) and Unreal Engine (C++): gameplay systems, components and reusable mechanics.</li>
-              <li>Modelled 3D assets in Blender and took ideas to playable iterations.</li>
-            </ul>
-            <ul class="tags"><li>Unity</li><li>C#</li><li>Unreal</li><li>C++</li><li>Blender</li></ul>
-          </div>
-        </li>
-      </ol>
-    </section>
-
-    <section class="wrap section" id="projects">
-      <h2>Selected projects</h2>
-      <div class="grid">
-        <article class="card">
-          <div class="thumb" aria-hidden="true">IoT · Security</div>
-          <p class="kind">Professional · 2026</p>
+    <section class="section" id="work">
+      <h2>Selected work</h2>
+      <div class="work">
+        <a class="work-item" href="#exp-gcs">
+          <span class="ctx">German Cyber-Systems · 2026</span>
           <h3>HotelOps</h3>
-          <p>Operations platform for a 196-room Riyadh hotel that combines PMS reservations with building and security signals to raise incidents and housekeeping tasks automatically. Built solo, privacy-first, with 2,000+ tests.</p>
-          <ul class="tags"><li>NestJS</li><li>React</li><li>PostgreSQL</li><li>Docker</li></ul>
-        </article>
-        <article class="card">
-          <div class="thumb" aria-hidden="true">Hours → Minutes</div>
-          <p class="kind">Professional · Sompo</p>
+          <p>Hotel operations platform for a 196-room Riyadh pilot that turns PMS, building and security signals into incidents and housekeeping tasks. Built solo, end to end.</p>
+          <p class="metric">2,000+ tests · 39 security findings fixed · EN/TR/AR</p>
+        </a>
+        <a class="work-item" href="#exp-logistics">
+          <span class="ctx">Stealth startup, Hamburg · 2026</span>
+          <h3>AI logistics intelligence platform</h3>
+          <p>Ingestion pipelines and carrier adapters that unify Evergreen, Hapag-Lloyd and ShipsGo tracking data for AI-driven delay detection and alerts.</p>
+          <p class="metric">Founding engineer · full stack</p>
+        </a>
+        <a class="work-item" href="#exp-sompo">
+          <span class="ctx">Sompo · 2023 – 2026</span>
           <h3>Fleet reporting platform</h3>
-          <p>Rebuilt a failing multi-hour reporting job as a web platform with adaptive concurrency control. 98% faster, no more weekly crashes, and it scaled with an 80% larger sales team.</p>
-          <ul class="tags"><li>.NET</li><li>SQL Server</li><li>Redis</li><li>Grafana</li></ul>
-        </article>
-        <article class="card">
-          <div class="thumb" aria-hidden="true">AI · Logistics</div>
-          <p class="kind">Freelance · Hamburg startup</p>
-          <h3>Shipment intelligence platform</h3>
-          <p>Ingestion pipelines and carrier adapters (Evergreen, Hapag-Lloyd, ShipsGo) that normalise tracking data for AI-driven delay detection, dashboards and alerts, with retries and reconciliation.</p>
-          <ul class="tags"><li>TypeScript</li><li>LLM</li><li>PostgreSQL</li><li>Redis</li></ul>
-        </article>
-        <article class="card">
-          <div class="thumb" aria-hidden="true">RAG</div>
-          <p class="kind">Professional · Sompo</p>
-          <h3>Support investigation assistant</h3>
-          <p>Reads forwarded customer-support emails, retrieves matching database records and relevant source code, and suggests likely causes and debugging steps for engineers.</p>
-          <ul class="tags"><li>RAG</li><li>LLM</li><li>C#</li><li>SQL Server</li></ul>
-        </article>
-        <article class="card">
-          <div class="thumb" aria-hidden="true">Computer Vision</div>
-          <p class="kind">University · in progress</p>
-          <h3>BrickTrack</h3>
-          <p>Recognises LEGO assembly progress from photos, works out the current instruction step and suggests the next pieces.</p>
-          <ul class="tags"><li>Python</li><li>OpenCV</li><li>PyTorch</li></ul>
-        </article>
-        <article class="card">
-          <div class="thumb" aria-hidden="true">Knowledge Graph</div>
-          <p class="kind">University · in progress</p>
-          <h3>AI research explorer</h3>
-          <p>Explores a decade of arXiv AI papers through time, topic and citation graphs, with RAG-assisted search and natural-language Q&amp;A.</p>
-          <ul class="tags"><li>Python</li><li>Neo4j</li><li>React</li><li>Electron</li></ul>
-        </article>
+          <p>Rebuilt multi-hour, crash-prone reporting as a web platform with adaptive concurrency control.</p>
+          <p class="metric">98% faster · ~99% fewer emergencies · +50% fleet revenue</p>
+        </a>
+        <a class="work-item" href="#exp-sompo">
+          <span class="ctx">Sompo · 2023 – 2026</span>
+          <h3>AI assistants</h3>
+          <p>Backend of a privacy-aware internal AI assistant, plus a RAG assistant that investigates customer-support emails against database records and source code.</p>
+          <p class="metric">1,000+ users · ~30% faster onboarding</p>
+        </a>
       </div>
     </section>
 
-    <section class="wrap section two-col" id="skills">
-      <div>
-        <h2>Skills</h2>
-        <dl class="skills">
-          <dt>Backend</dt><dd>C#, .NET Core, ASP.NET Core, Node.js, NestJS, Go, Python, C++</dd>
-          <dt>Frontend</dt><dd>TypeScript, React, Blazor, Razor Pages, Tailwind</dd>
-          <dt>AI</dt><dd>LLM integration, RAG, prompt engineering, MCP</dd>
-          <dt>Data</dt><dd>SQL Server, PostgreSQL, Redis, Kafka, Elasticsearch, Neo4j</dd>
-          <dt>Ops</dt><dd>Docker, CI/CD (GitHub Actions, Azure DevOps), Dynatrace, Grafana, Sentry, Kibana</dd>
-          <dt>Languages</dt><dd>English (C1, TOEFL iBT), German (B2, Goethe), Turkish (native)</dd>
-        </dl>
-      </div>
-      <div id="education">
-        <h2>Education</h2>
-        <div class="edu">
-          <h3>MSc Computer Science (Informatik)</h3>
-          <p class="muted">Hochschule Hof · Oct 2026 – Present</p>
+    <section class="section" id="experience">
+      <h2>Professional experience</h2>
+
+      <article class="entry" id="exp-gcs">
+        <div class="entry-head">
+          <h3>German Cyber-Systems<span class="sep">|</span>Germany<span class="sep">|</span>Founding Software Engineer</h3>
+          <p class="dates">June 2026 – Present · 12-month contract</p>
         </div>
-        <div class="edu">
-          <h3>BSc Software Engineering</h3>
-          <p class="muted">Bahçeşehir University, Istanbul · 2022 – 2025</p>
+        <p class="org-desc"><a href="https://germancyber-systems.de" rel="noopener">German Cyber-Systems</a> is a Germany-based cybersecurity and technology company delivering secure software and IoT solutions, particularly for clients in the Middle East.</p>
+        <ul>
+          <li>Built HotelOps as the sole developer for a Riyadh hotel pilot and led it end to end: requirements, architecture, full-stack implementation, and staging and self-hosted production deployment.</li>
+          <li>Used ports-and-adapters interfaces to integrate the PMS and devices, combining Oracle OPERA reservation/occupancy context with building and security signals; enforced mock-adapter isolation in CI.</li>
+          <li>Built a rules engine with grace periods and duplicate suppression that generates incidents and housekeeping tasks, enforces the incident lifecycle, and keeps a full audit trail.</li>
+          <li>Built RBAC for four roles, time-limited emergency access, and PDPL-focused data minimization (no guest identities or camera footage stored); fixed 39 security findings and shipped EN/TR/AR interfaces with RTL support.</li>
+          <li>Built reproducible 60×-speed simulations covering 196 rooms and ~1,200 devices, wrote 2,000+ automated tests, and set up CI/CD with production-image boot checks and end-to-end testing.</li>
+        </ul>
+        <p class="stack"><b>Stack:</b> TypeScript, Node.js, NestJS, React, PostgreSQL, Prisma, REST/OpenAPI, Docker, GitHub Actions, Vitest, Playwright, Tailwind</p>
+      </article>
+
+      <article class="entry" id="exp-logistics">
+        <div class="entry-head">
+          <h3>Stealth Startup (AI Logistics Platform)<span class="sep">|</span>Germany<span class="sep">|</span>Founding Software Engineer</h3>
+          <p class="dates">June 2026 – Present · part-time</p>
         </div>
-        <div class="edu">
-          <h3>Associate's Degree, Computer Programming</h3>
-          <p class="muted">Marmara University, Istanbul · 2020 – 2022</p>
+        <ul>
+          <li>Built an AI-powered logistics intelligence platform for a Hamburg-based stealth startup (under NDA) that consolidates shipment and container-tracking data into one operational and analytical system.</li>
+          <li>Built data-ingestion pipelines that pull shipment data from Evergreen, Hapag-Lloyd, and ShipsGo and convert inconsistent provider responses into a standardized shipment model.</li>
+          <li>Created the structured data foundation for the platform's AI features: normalized shipment milestones, container movements, estimated arrival dates, delays, and status changes for automated analysis and operational decision support.</li>
+          <li>Designed carrier adapters that isolate provider-specific integration logic, which cut system complexity and made it simpler to add new shipping lines and tracking providers.</li>
+          <li>Set up scheduled synchronization, background processing, API error handling, retries, and data reconciliation to keep data reliable when third-party services are inconsistent or temporarily unavailable.</li>
+          <li>Built operational dashboards and notification workflows that show logistics teams delayed shipments, tracking anomalies, and operational exceptions.</li>
+          <li>Worked across the full stack: backend services, external API integrations, data processing, frontend interfaces, database design, caching, containerization, and deployment workflows.</li>
+        </ul>
+        <p class="stack"><b>Stack:</b> TypeScript, Node.js, React, REST APIs, AI/LLM Integration, PostgreSQL, Docker, Redis, Evergreen, Hapag-Lloyd, ShipsGo</p>
+      </article>
+
+      <article class="entry" id="exp-sompo">
+        <div class="entry-head">
+          <h3>Sompo<span class="sep">|</span>Turkey<span class="sep">|</span>Software Engineer</h3>
+          <p class="dates">July 2023 – September 2026 · 3 years 2 months</p>
         </div>
-      </div>
+        <p class="org-desc"><a href="https://www.sompoteknoloji.com.tr/" rel="noopener">Sompo</a> is one of the largest insurance companies in Turkey, with thousands of employees and millions of policyholders.</p>
+        <ul>
+          <li>Led the end-to-end redesign of sales-critical fleet reporting affected by multi-hour runtimes, recurring failures, and manual engineering intervention. Rebuilt reporting as a scalable web platform with adaptive concurrency control that throttled or increased parallel workloads based on available capacity.</li>
+          <li>Cut report generation from hours to minutes (98% faster) and eliminated 3–4 weekly crashes through resilient workload management, failure handling, and monitoring.</li>
+          <li>Enabled 80% sales-team growth without proportional engineering support, reduced emergency interventions by ~99%, and contributed to 50% fleet-insurance revenue growth; recognized by senior stakeholders.</li>
+          <li>Worked on AI-powered Excel analysis to surface patterns, anomalies, and actionable insights for sales teams.</li>
+          <li>Built the backend of a privacy-aware internal AI assistant serving 1,000+ users, reducing repetitive support questions and cutting onboarding ramp-up time by ~30%.</li>
+          <li>Built a RAG-powered support investigation assistant that analyzes forwarded customer-support emails, retrieves matching database records and relevant source code, and suggests likely causes and debugging steps, reducing repetitive manual investigations for engineers.</li>
+          <li>Built a Selenium health-check automation framework to detect downtime proactively and reduce manual testing effort by ~90%.</li>
+        </ul>
+        <p class="stack"><b>Stack:</b> C#, .NET Framework, .NET Core, ASP.NET MVC, ASPX, (legacy) SOAP services, REST APIs, SQL Server, CI/CD Azure DevOps, Sentry, Dynatrace, JavaScript, React, Blazor, Razor Pages, Redis, IIS, Grafana, C++, Python, Kibana, Elasticsearch</p>
+      </article>
+
+      <article class="entry" id="exp-sfs">
+        <div class="entry-head">
+          <h3>SFS<span class="sep">|</span>Turkey<span class="sep">|</span>Software Engineer</h3>
+          <p class="dates">June 2022 – July 2023 · 1 year 1 month</p>
+        </div>
+        <p class="org-desc"><a href="https://sfs.com.tr/" rel="noopener">SFS</a> is one of the largest insurance software providers in Turkey, delivering end-to-end platforms used by 15+ insurance companies.</p>
+        <ul>
+          <li>Contributed as a backend engineer for multiple insurers, including <a href="https://www.somposigorta.com.tr/en" rel="noopener">Sompo</a> and <a href="https://www.turknippon.com/en" rel="noopener">Türk Nippon</a>, contributing to core insurance platform modules.</li>
+          <li>Led the full SFS platform integration for <a href="https://acnturk.com.tr/" rel="noopener">ACN Türk</a>, handling backend setup, data flows, and production readiness.</li>
+          <li>Contributed to the development and client integration of a policy document template designer, enabling insurers to configure policy printout layouts without code changes; reduced operational effort by ~70%.</li>
+          <li>Translated insurer requirements into technical solutions and delivered production changes under tight timelines while maintaining system stability.</li>
+        </ul>
+        <p class="stack"><b>Stack:</b> C#, .NET, SQL, SOAP services, ASP.NET MVC, SFS proprietary frameworks, custom scripting language, internal tooling</p>
+      </article>
+
+      <article class="entry" id="exp-indie">
+        <div class="entry-head">
+          <h3>Independent<span class="sep">|</span>Indie Game Developer</h3>
+          <p class="dates">January 2020 – June 2022 · 2 years 6 months</p>
+        </div>
+        <ul>
+          <li>Built independent game prototypes in Unity and Unreal Engine, programming gameplay systems, player interactions, and reusable mechanics in C#, plus C++ gameplay classes, actor components, and interactive features.</li>
+          <li>Resolved complex gameplay bugs through systematic reproduction, testing, and root cause analysis; designed creative solutions to gameplay and technical challenges and refined features through iteration.</li>
+          <li>Created 3D models and visual assets in Blender and integrated them into game scenes, taking ideas into playable iterations.</li>
+        </ul>
+        <p class="stack"><b>Stack:</b> Unity, C#, Unreal Engine, C++, Blender</p>
+      </article>
     </section>
 
-    <section class="wrap section contact" id="contact">
-      <h2>Let's talk</h2>
-      <p class="measure">I'm open to software engineering roles in Germany and remote. The fastest way to reach me is email or LinkedIn.</p>
+    <section class="section" id="projects">
+      <h2>University projects</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>BrickTrack: LEGO Assembly Progress Recognition<span class="sep">|</span>Hochschule Hof</h3>
+          <p class="dates">2026 – Present</p>
+        </div>
+        <ul>
+          <li>Developing an approach to identify LEGO assembly progress from photos, determine the current instruction step, and suggest the next pieces.</li>
+          <li>Planning instruction-image extraction, OpenCV-based preprocessing, and evaluation of pretrained vision models for comparing build photos with instructions.</li>
+        </ul>
+        <p class="stack"><b>Stack:</b> Python, OpenCV, and pretrained vision models (evaluating PyTorch) for image segmentation, feature extraction, and comparison against instruction steps. Will evaluate step-recognition accuracy on labeled build photos under varied viewing conditions.</p>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Multi-Perspective Knowledge Graph for AI Research<span class="sep">|</span>Hochschule Hof</h3>
+          <p class="dates">2026 – Present</p>
+        </div>
+        <ul>
+          <li>Designing a research-exploration system for arXiv AI publications from the past decade, combining time-based, content-based, and citation-based knowledge graphs.</li>
+          <li>Defining RAG-assisted search, semantic and full-text retrieval, citation navigation, and natural-language Q&amp;A; currently gathering functional and non-functional requirements.</li>
+        </ul>
+        <p class="stack"><b>Stack:</b> Python for arXiv data ingestion and text processing, embedding-based vector search and a graph database (Neo4j) for temporal, topical and citation relationships; Electron and React for the desktop interface. Will evaluate an LLM-based RAG layer with hybrid search and measure retrieval relevance and response latency.</p>
+      </article>
+    </section>
+
+    <section class="section" id="education">
+      <h2>Education</h2>
+      <ul class="edu">
+        <li>
+          <div class="entry-head">
+            <h3>Master of Science in Computer Science (Informatik, German)<span class="sep">|</span><a href="https://www.hof-university.de/" rel="noopener">Hochschule Hof</a></h3>
+            <p class="dates">October 2026 – Present · Hof, Germany</p>
+          </div>
+        </li>
+        <li>
+          <div class="entry-head">
+            <h3>Bachelor of Software Engineering<span class="sep">|</span><a href="https://bau.edu.tr/" rel="noopener">Bahçeşehir University</a></h3>
+            <p class="dates">2022 – 2025 · Istanbul, Turkey</p>
+          </div>
+        </li>
+        <li>
+          <div class="entry-head">
+            <h3>Associate's Degree in Computer Programming<span class="sep">|</span><a href="https://www.marmara.edu.tr/en" rel="noopener">Marmara University</a></h3>
+            <p class="dates">2020 – 2022 · Istanbul, Turkey</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Programming skills</h2>
+      <dl class="kv">
+        <dt>Languages &amp; frameworks</dt>
+        <dd>C#, .NET Framework, .NET Core, ASP.NET Core, ASP.NET MVC, ASPX, Blazor, Razor Pages, Go, Node.js, TypeScript, JavaScript, React, Python, C++</dd>
+        <dt>Architecture</dt>
+        <dd>REST APIs, Microservices, Background Services</dd>
+        <dt>AI</dt>
+        <dd>AI/LLM Integration, AI-Powered Data Processing, Prompt Engineering, RAG, MCP</dd>
+        <dt>Data</dt>
+        <dd>SQL Server, PostgreSQL, Redis, Kafka, Elasticsearch, Graph Databases</dd>
+        <dt>DevOps &amp; observability</dt>
+        <dd>Docker, Git, Azure DevOps, CI/CD, Dynatrace, Grafana, Sentry, Kibana</dd>
+      </dl>
+      <h2 class="sub">Languages</h2>
+      <p class="langs"><span class="nw">English (C1, TOEFL iBT)</span> <span class="dotsep" aria-hidden="true">•</span> <span class="nw">German (B2, Goethe)</span> <span class="dotsep" aria-hidden="true">•</span> <span class="nw">Turkish (native)</span></p>
+    </section>
+
+    <section class="section contact" id="contact">
+      <h2>Contact</h2>
+      <p>I'm open to software engineering roles in Germany and remote. The fastest way to reach me is email or LinkedIn.</p>
       <div class="cta">
         <a class="btn primary" href="mailto:berkayozdemir764@gmail.com">berkayozdemir764@gmail.com</a>
         <a class="btn" href="https://www.linkedin.com/in/berkayyozdemirr/" rel="noopener">LinkedIn</a>
@@ -204,14 +266,13 @@
     </section>
   </main>
 
-  <footer class="wrap footer">
+  <footer class="footer">
     <p>© <span id="year">2026</span> Berkay Özdemir</p>
   </footer>
 
   <script>
     (function () {
       var root = document.documentElement, key = 'theme';
-      try { var saved = localStorage.getItem(key); if (saved) root.dataset.theme = saved; } catch (e) {}
       document.querySelector('.theme-toggle').addEventListener('click', function () {
         var dark = root.dataset.theme ? root.dataset.theme === 'dark'
           : matchMedia('(prefers-color-scheme: dark)').matches;
