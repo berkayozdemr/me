@@ -90,6 +90,10 @@ p { margin: 0; }
 .headline { margin-top: 6px; font-size: clamp(1.2rem, 2.6vw, 1.45rem); color: var(--muted); }
 .links-line { margin-top: 18px; padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
 .tagline { padding: 8px 0; border-bottom: 1px solid var(--rule); font-size: 15px; }
+.tagline .sep { margin: 0 .3em 0 .5em; }
+.permit { text-wrap: balance; }
+.permit { display: flex; align-items: flex-start; gap: 8px; margin-top: 16px; font-weight: 700; font-size: 1.12rem; line-height: 1.35; }
+.permit svg { flex: none; margin-top: 2px; color: var(--ok); }
 .lede { margin-top: 20px; max-width: 64ch; font-size: 1.15rem; }
 .cta { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
 
